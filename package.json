@@ -16,7 +16,7 @@
   },
   "lint-staged": {
     "src/**/*.{ts,tsx}": "pnpm run lint",
-    "src/**/*.{js,jsx,ts,tsx,json,css}": "pnpm run format"
+    "./**/*.{js,jsx,ts,tsx,json,css}": "pnpm run format"
   },
   "dependencies": {
     "next": "14.0.4",
